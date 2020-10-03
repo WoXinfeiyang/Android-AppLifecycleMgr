@@ -74,7 +74,9 @@ public class AppLikeProxyClassCreator {
 
 
         sb.append("\n}");
-        return sb.toString();
+        String result=sb.toString();
+        System.out.println("AppLikeProxyClassCreator.generateJavaCode="+result);
+        return result;
     }
 
 }
